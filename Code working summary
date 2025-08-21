@@ -1,0 +1,5 @@
+Data Generation and Loading: You generated a synthetic dataset simulating library book borrowings, including issue dates, due dates, return dates, delays, and fines. This dataset was then loaded into a pandas DataFrame.
+Exploratory Data Analysis (EDA): You performed EDA to understand the data's structure, identify missing values (none found in the synthetic data), and visualize distributions of key features like delay days and fines. You also explored relationships between categorical features and delays, and visualized feature correlations. The plots showed that 'Delay_Days' and 'Fine' are perfectly correlated, which makes sense given how the fine was calculated.
+Preprocessing: You preprocessed the data by encoding categorical features using Label Encoding and converting date columns into numerical representations (days since the earliest date). Features were then scaled using StandardScaler.
+Visualizations: This contains visualisations using graphs, scattering graphs, pie chart, and many more representations.
+Final: At the end there is also a cleaned and processed csv file of the provided dataset.
